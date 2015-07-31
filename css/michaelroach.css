@@ -174,9 +174,27 @@ footer ul li a {
 }
 
 /* Define mobile styles */
+@media only screen and (max-width: 40em) {
+  .small-below {
+    margin-bottom: 25px;
+  }
+}
+
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 /* min-width 641px, medium screens */
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+@media only screen and (min-width: 64.063em) {
+  .large-above-space {
+    margin-top: 50px;
+  }
+  .comfort {
+    margin-top: 30px;
+  }
+  .device {
+    margin-top: 35px;
+  }
+}
+
 /* min-width 1025px, large screens */
 /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
 /* min-width 1441px, xlarge screens */
