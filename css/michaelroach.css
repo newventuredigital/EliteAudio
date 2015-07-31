@@ -1,0 +1,183 @@
+.row {
+  max-width: 1200px;
+}
+
+a {
+  transition: all 0.25s;
+}
+
+a:hover {
+  color: #24E274;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.83;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Roboto', sans-serif;
+  color: #666;
+}
+
+h1, h2 {
+  font-weight: 900;
+  color: #08AC67;
+}
+
+h3, h4, h5 {
+  font-weight: 300;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #666;
+  font-weight: 300;
+}
+
+header {
+  background: #2E284C;
+  padding: 28px 0;
+}
+
+header a {
+  font-size: 1.4rem;
+}
+
+header a i {
+  background: #08AC67;
+  color: #fff;
+  border: 1px solid #08AC67;
+  padding: 6px 8px 5px;
+  border-radius: 4px;
+  margin-right: 20px;
+  position: relative;
+  top: -5px;
+}
+
+header #logo {
+  max-width: 201px;
+  height: auto;
+}
+
+header nav {
+  position: absolute;
+  right: 0;
+  bottom: 6px;
+}
+
+header nav ul {
+  margin: 0;
+}
+
+header nav ul li:first-child {
+  margin-left: 0;
+}
+
+header nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 35px;
+}
+
+header nav ul li a {
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+header nav ul li a i {
+  color: #24E274;
+  background: none;
+  border: 0;
+  position: relative;
+  top: 0;
+}
+
+.hero {
+  margin-top: 115px;
+  margin-bottom: 115px;
+}
+
+.hero .v-align {
+  margin-top: 40px;
+}
+
+.hero .cta {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.hero .cta p {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.hero .cta button {
+  background: #08AC67;
+  width: 165px;
+}
+
+.hero .cta button:hover {
+  background: #24E274;
+}
+
+.gray-bg {
+  background: #F2F2F2;
+  padding-bottom: 80px;
+}
+
+.gray-bg img {
+  margin-bottom: 50px;
+}
+
+.device-comfort {
+  margin: 120px 0;
+}
+
+footer {
+  color: #fff;
+  background: #2E284C;
+  padding: 50px 0 20px;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+footer h4 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+footer #footer-logo {
+  max-width: 190px;
+  margin-bottom: 30px;
+}
+
+footer ul {
+  margin: 0;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul li a {
+  color: #fff;
+}
+
+.relative {
+  position: relative;
+}
+
+/* Define mobile styles */
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+/* min-width 641px, medium screens */
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+/* min-width 1025px, large screens */
+/* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+/* min-width 1441px, xlarge screens */
+/* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
