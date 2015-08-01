@@ -133,7 +133,7 @@ header nav ul li a i {
 }
 
 .device-comfort {
-  margin: 120px 0;
+  margin: 120px 0 120px;
 }
 
 footer {
@@ -173,6 +173,14 @@ footer ul li a {
   position: relative;
 }
 
+.placement-images {
+  margin-bottom: 120px;
+}
+
+.placement-images .full-width {
+  max-width: 100%;
+}
+
 /* Define mobile styles */
 @media only screen and (max-width: 40em) {
   .small-below {
@@ -181,6 +189,21 @@ footer ul li a {
 }
 
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (min-width: 40.063em) {
+  .custom-pad:nth-child(2) img {
+    padding: 0 4% 0 2% !important;
+  }
+  .custom-pad:nth-child(3) img {
+    padding: 0 2% 0 4% !important;
+  }
+  .custom-pad:first-child img {
+    padding: 0 6% 0 0 !important;
+  }
+  .custom-pad:last-child img {
+    padding: 0 0 0 6% !important;
+  }
+}
+
 /* min-width 641px, medium screens */
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 @media only screen and (min-width: 64.063em) {
