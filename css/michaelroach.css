@@ -21,6 +21,15 @@ h1, h2, h3, h4, h5 {
   color: #666;
 }
 
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
 h1, h2 {
   font-weight: 900;
   color: #08AC67;
@@ -99,6 +108,10 @@ header nav ul li a i {
   margin-bottom: 115px;
 }
 
+.hero h3 {
+  margin-bottom: 2rem;
+}
+
 .hero .v-align {
   margin-top: 40px;
 }
@@ -130,6 +143,10 @@ header nav ul li a i {
 
 .cta-2 {
   margin: 0 0 100px;
+}
+
+.cta-2 h2 {
+  margin-bottom: 0.5rem;
 }
 
 .cta-2 p {

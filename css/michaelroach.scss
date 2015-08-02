@@ -10,6 +10,8 @@ a:hover {color:$green-light;}
 p {font-size:1.2rem; font-weight:300; line-height:1.83;}
 
 h1, h2, h3, h4, h5 {font-family: 'Roboto', sans-serif; color:$gray;}
+h1 {font-size:3rem; margin-bottom:0;}
+h2 {margin-bottom:1rem;}
 h1, h2 {font-weight:900; color:$green-dark;}
 h3, h4, h5 {font-weight:300;}
 body {font-family: 'Roboto', sans-serif; color:$gray; font-weight:300;}
@@ -28,6 +30,7 @@ header {background:$purple; padding:28px 0;
 
 
 .hero {margin-top:115px; margin-bottom:115px;
+  h3 {margin-bottom:2rem;}
   .v-align {margin-top:40px;}
   .cta {margin-top:50px; text-align:center;
   p {color:$purple; font-size:1.8rem; font-weight:300; margin-bottom:20px;}
@@ -39,6 +42,7 @@ header {background:$purple; padding:28px 0;
 .device-comfort {margin:120px 0 120px;}
 
 .cta-2 {margin:0 0 100px;
+  h2 {margin-bottom:0.5rem;}
   .v-align {}
   p {color:$purple; font-size:1.8rem; font-weight:300; margin-bottom:20px;}
 }
