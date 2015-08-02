@@ -109,18 +109,10 @@ header nav ul li a i {
 }
 
 .hero .cta p {
+  color: #2E284C;
   font-size: 1.8rem;
   font-weight: 300;
   margin-bottom: 20px;
-}
-
-.hero .cta button {
-  background: #08AC67;
-  width: 165px;
-}
-
-.hero .cta button:hover {
-  background: #24E274;
 }
 
 .gray-bg {
@@ -134,6 +126,22 @@ header nav ul li a i {
 
 .device-comfort {
   margin: 120px 0 120px;
+}
+
+.cta-2 {
+  margin: 0 0 100px;
+}
+
+.cta-2 .v-align {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.cta-2 p {
+  color: #2E284C;
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 20px;
 }
 
 footer {
@@ -169,6 +177,10 @@ footer ul li a {
   color: #fff;
 }
 
+.table {
+  display: table;
+}
+
 .relative {
   position: relative;
 }
@@ -179,6 +191,15 @@ footer ul li a {
 
 .placement-images .full-width {
   max-width: 100%;
+}
+
+button {
+  background: #08AC67;
+  width: 165px;
+}
+
+button:hover {
+  background: #24E274;
 }
 
 /* Define mobile styles */
@@ -207,6 +228,9 @@ footer ul li a {
 /* min-width 641px, medium screens */
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 @media only screen and (min-width: 64.063em) {
+  .pad-left {
+    padding-left: 2rem;
+  }
   .large-above-space {
     margin-top: 50px;
   }

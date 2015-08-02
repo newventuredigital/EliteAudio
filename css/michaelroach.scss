@@ -30,15 +30,20 @@ header {background:$purple; padding:28px 0;
 .hero {margin-top:115px; margin-bottom:115px;
   .v-align {margin-top:40px;}
   .cta {margin-top:50px; text-align:center;
-  p {font-size:1.8rem; font-weight:300; margin-bottom:20px;}
-  button {background:$green-dark; width:165px;}
-  button:hover {background:$green-light;}
+  p {color:$purple; font-size:1.8rem; font-weight:300; margin-bottom:20px;}
   }
 }
 .gray-bg {background:#F2F2F2; padding-bottom:80px;
   img {margin-bottom:50px;}
 }
 .device-comfort {margin:120px 0 120px;}
+
+.cta-2 {margin:0 0 100px;
+  .v-align {display: table-cell;
+vertical-align: middle;}
+  p {color:$purple; font-size:1.8rem; font-weight:300; margin-bottom:20px;}
+  
+}
 
 footer {color:#fff; background:$purple; padding:50px 0 20px;
   p {font-size:1rem;}
@@ -51,12 +56,16 @@ footer {color:#fff; background:$purple; padding:50px 0 20px;
   }
 }
 
+.table {display:table;}
 .relative {position:relative;}
 
 .placement-images {margin-bottom:120px;
   .full-width {max-width:100%;}
   .row:first-child {}
 }
+
+button {background:$green-dark; width:165px;}
+button:hover {background:$green-light;}
 
 // Small screens
 @media only screen {
@@ -81,6 +90,7 @@ footer {color:#fff; background:$purple; padding:50px 0 20px;
 
 // Large screens
 @media only screen and (min-width: 64.063em) {
+.pad-left {padding-left:2rem;}
 .large-above-space {margin-top:50px;}
 .comfort {margin-top:30px;}
 .device {margin-top:35px;}
