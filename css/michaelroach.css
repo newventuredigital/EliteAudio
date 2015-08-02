@@ -132,16 +132,25 @@ header nav ul li a i {
   margin: 0 0 100px;
 }
 
-.cta-2 .v-align {
-  display: table-cell;
-  vertical-align: middle;
-}
-
 .cta-2 p {
   color: #2E284C;
   font-size: 1.8rem;
   font-weight: 300;
   margin-bottom: 20px;
+}
+
+.table {
+  display: table;
+  width: 100%;
+}
+
+.table-middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.table-middle img {
+  width: 100%;
 }
 
 footer {
@@ -175,10 +184,6 @@ footer ul li {
 
 footer ul li a {
   color: #fff;
-}
-
-.table {
-  display: table;
 }
 
 .relative {

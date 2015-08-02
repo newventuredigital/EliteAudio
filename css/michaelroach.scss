@@ -39,11 +39,13 @@ header {background:$purple; padding:28px 0;
 .device-comfort {margin:120px 0 120px;}
 
 .cta-2 {margin:0 0 100px;
-  .v-align {display: table-cell;
-vertical-align: middle;}
+  .v-align {}
   p {color:$purple; font-size:1.8rem; font-weight:300; margin-bottom:20px;}
-  
 }
+
+.table {display: table; width: 100%;}
+.table-middle {display: table-cell; vertical-align: middle;}
+.table-middle img {width:100%;}
 
 footer {color:#fff; background:$purple; padding:50px 0 20px;
   p {font-size:1rem;}
@@ -56,7 +58,6 @@ footer {color:#fff; background:$purple; padding:50px 0 20px;
   }
 }
 
-.table {display:table;}
 .relative {position:relative;}
 
 .placement-images {margin-bottom:120px;
