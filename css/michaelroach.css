@@ -36,29 +36,48 @@ body {
   font-weight: 300;
 }
 
+aside.right-off-canvas-menu ul li {
+  list-style: none;
+}
+
+aside.right-off-canvas-menu ul li a {
+  display: block;
+  color: #fff;
+  padding: 7px 0;
+}
+
 header {
   background: #2E284C;
   padding: 28px 0;
 }
 
-header a {
-  font-size: 1.4rem;
-}
-
-header a i {
-  background: #08AC67;
-  color: #fff;
-  border: 1px solid #08AC67;
-  padding: 6px 8px 5px;
-  border-radius: 4px;
-  margin-right: 20px;
-  position: relative;
-  top: -5px;
-}
-
 header #logo {
   max-width: 201px;
   height: auto;
+}
+
+header nav.mobile-button {
+  position: absolute;
+  right: 0;
+  bottom: -6px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+header nav.mobile-button a.right-off-canvas-toggle {
+  color: #FFF;
+  font-size: 0.8rem;
+  display: block;
+}
+
+header nav.mobile-button a i {
+  background: #08AC67;
+  color: #fff;
+  font-size: 1rem;
+  border: 1px solid #08AC67;
+  padding: 6px 8px 5px;
+  margin-bottom: 5px;
+  border-radius: 4px;
 }
 
 header nav {
@@ -182,6 +201,12 @@ footer ul li a {
 
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 /* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  .medium-below {
+    margin-bottom: 25px;
+  }
+}
+
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 @media only screen and (min-width: 64.063em) {
   .large-above-space {

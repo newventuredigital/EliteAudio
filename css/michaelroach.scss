@@ -14,10 +14,20 @@ h1, h2 {font-weight:900; color:$green-dark;}
 h3, h4, h5 {font-weight:300;}
 body {font-family: 'Roboto', sans-serif; color:$gray; font-weight:300;}
 
+aside.right-off-canvas-menu {
+  ul {
+    li {list-style:none;
+      a {display:block; color:#fff; padding:7px 0;}
+    }
+  }
+}
+
 header {background:$purple; padding:28px 0; 
-  a {font-size:1.4rem;}
-  a i {background:$green-dark; color:#fff; border:1px solid $green-dark; padding:6px 8px 5px; border-radius:4px; margin-right:20px; position:relative; top:-5px;}
   #logo {max-width:201px; height:auto;}
+  nav.mobile-button {position:absolute; right:0; bottom:-6px; text-align:center; margin-right:20px;
+    a.right-off-canvas-toggle {color:#FFF; font-size:0.8rem; display:block;}
+    a i {background:$green-dark; color:#fff; font-size:1rem; border:1px solid $green-dark; padding:6px 8px 5px; margin-bottom:5px; border-radius:4px;}
+  }
   nav {position:absolute; right:0; bottom:6px;
     ul {margin:0;
     li:first-child {margin-left:0;}
@@ -69,6 +79,7 @@ footer {color:#fff; background:$purple; padding:50px 0 20px;
 } /* min-width 641px, medium screens */
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  .medium-below {margin-bottom:25px;}
 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
 // Large screens
